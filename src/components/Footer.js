@@ -71,46 +71,36 @@ function Footer() {
           </div>
           <small class="website-rights">iDesign Tech © 2023</small>
           <div class="social-icons">
-            <Link
-              class="social-icon-link facebook"
-              to="https://web.facebook.com/michaelflabysis/"
-              target="_blank"
-              aria-label="Facebook"
+            <a
+              href="https://web.facebook.com/michaelflabysis/"
+              className="social-icon-link facebook"
             >
               <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
-              class="social-icon-link instagram"
-              to="https://www.instagram.com/federalgovament/"
-              target="_blank"
-              aria-label="Instagram"
+            </a>
+            <a
+              href="https://www.instagram.com/federalgovament/"
+              className="social-icon-link instagram"
             >
               <i class="fab fa-instagram" />
-            </Link>
-            <Link
-              class="social-icon-link youtube"
-              to="/"
-              target="_blank"
-              aria-label="Youtube"
+            </a>
+            <a
+              href="https://www.youtube.com/"
+              className="social-icon-link youtube"
             >
               <i class="fab fa-youtube" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="https://twitter.com/federalgovament"
-              target="_blank"
-              aria-label="Twitter"
+            </a>
+            <a
+              href="https://twitter.com/federalgovament"
+              className="social-icon-link twitter"
             >
               <i class="fab fa-twitter" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="https://www.linkedin.com/in/michael-m-3992b597/"
-              target="_blank"
-              aria-label="LinkedIn"
+            </a>
+            <a
+              href="https://www.linkedin.com/in/michael-m-3992b597/"
+              className="social-icon-link LinkedIn"
             >
               <i class="fab fa-linkedin" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
