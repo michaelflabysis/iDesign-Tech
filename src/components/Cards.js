@@ -33,13 +33,51 @@ function Cards() {
               src="images/best-web-development-tools.png"
               text="Latest Tools for best build and optimization"
               label="Latest Web Tools"
-              path="/products"
+              path="/services"
             />
             <CardItem
               src="images/the-best-applications-to-learn-as-a-graphics-designer.jpg"
               text="Get the best designs out of our AI tools for your business"
               label="Graphic Design"
-              path="/sign-up"
+              path="/services"
+            />
+          </ul>
+        </div>
+      </div>
+      <div className="cards__container">
+        <div className="cards__wrapper">
+          <ul className="cards__items">
+            <CardItem
+              src="images/waec-scratch-cards-h8.png"
+              text="Buy Waec Scratch card for checking of waec result of any specified year"
+              label="Waec Card"
+              path="/services"
+            />
+            <CardItem
+              src="images/necoscratchcard.png"
+              text="Buy Neco Scratch card for checking of Neco result of any specified year"
+              label="Neco Card"
+              path="/services"
+            />
+          </ul>
+          <ul className="cards__items">
+            <CardItem
+              src="images/waecgce.jpg"
+              text="Buy Waec GCE Pin for Registration"
+              label="Waec GCE Regiistration Pin"
+              path="/services"
+            />
+            <CardItem
+              src="images/waec-verification-card-96.png"
+              text="For NYSC date of birth correction and others..."
+              label="waec verification pin"
+              path="/services"
+            />
+            <CardItem
+              src="images/NABTEB-RESULT-CHECKER.png"
+              text="Get Nabteb Card for checking of Nabteb result"
+              label="Nabteb Card"
+              path="/services"
             />
           </ul>
         </div>
